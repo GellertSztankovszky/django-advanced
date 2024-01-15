@@ -8,10 +8,10 @@
 </head>
 
 <body>
-    <form method="POST">
+    <form action="/" method="POST">
         {% csrf_token %}
         <label for="name">Your name</label>
-        <input id="username" name="" type="text">
+        <input id="username" name="username" type="text">
         <button type="submit">Send</button>
     </form>
 </body>
